@@ -1,0 +1,61 @@
+/* 全局配置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* 头部 */
+.header {
+    height: 70px;
+    background-color: pink;
+}
+
+
+div h1 {
+    float: left;
+    line-height: 70px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.nav {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    height: 70px;
+    margin-right: 40px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
